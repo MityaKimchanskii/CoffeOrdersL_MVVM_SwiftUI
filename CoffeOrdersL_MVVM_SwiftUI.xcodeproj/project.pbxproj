@@ -11,6 +11,16 @@
 		3B2C1ECE2882820A00827653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1ECD2882820A00827653 /* ContentView.swift */; };
 		3B2C1ED02882820D00827653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C1ECF2882820D00827653 /* Assets.xcassets */; };
 		3B2C1ED32882820D00827653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2C1ED22882820D00827653 /* Preview Assets.xcassets */; };
+		3B2C1EDB2882841D00827653 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EDA2882841D00827653 /* Coffee.swift */; };
+		3B2C1EDD2882842900827653 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EDC2882842900827653 /* Order.swift */; };
+		3B2C1EE02882874C00827653 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EDF2882874C00827653 /* Webservice.swift */; };
+		3B2C1EE428828AA500827653 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EE328828AA500827653 /* OrderListViewModel.swift */; };
+		3B2C1EE728828E1200827653 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EE628828E1200827653 /* OrderListView.swift */; };
+		3B2C1EE92882951B00827653 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EE82882951B00827653 /* CreateOrderResponse.swift */; };
+		3B2C1EEB2882969E00827653 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EEA2882969E00827653 /* AddCoffeeOrderViewModel.swift */; };
+		3B2C1EED2882981400827653 /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EEC2882981400827653 /* CoffeeViewModel.swift */; };
+		3B2C1EEF28829BEE00827653 /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EEE28829BEE00827653 /* AddCoffeeOrderView.swift */; };
+		3B2C1EF12882A3E400827653 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C1EF02882A3E400827653 /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		3B2C1ECD2882820A00827653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B2C1ECF2882820D00827653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2C1ED22882820D00827653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B2C1EDA2882841D00827653 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		3B2C1EDC2882842900827653 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3B2C1EDF2882874C00827653 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		3B2C1EE128828A1900827653 /* CoffeOrdersL-MVVM-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CoffeOrdersL-MVVM-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B2C1EE328828AA500827653 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		3B2C1EE628828E1200827653 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		3B2C1EE82882951B00827653 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		3B2C1EEA2882969E00827653 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		3B2C1EEC2882981400827653 /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		3B2C1EEE28829BEE00827653 /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		3B2C1EF02882A3E400827653 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +72,13 @@
 		3B2C1ECA2882820A00827653 /* CoffeOrdersL_MVVM_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3B2C1ED92882840D00827653 /* Models */,
+				3B2C1EE528828D7800827653 /* Views */,
+				3B2C1EE228828A5000827653 /* ViewModels */,
+				3B2C1EDE288286EB00827653 /* Services */,
 				3B2C1ECB2882820A00827653 /* CoffeOrdersL_MVVM_SwiftUIApp.swift */,
-				3B2C1ECD2882820A00827653 /* ContentView.swift */,
 				3B2C1ECF2882820D00827653 /* Assets.xcassets */,
+				3B2C1EE128828A1900827653 /* CoffeOrdersL-MVVM-SwiftUI-Info.plist */,
 				3B2C1ED12882820D00827653 /* Preview Content */,
 			);
 			path = CoffeOrdersL_MVVM_SwiftUI;
@@ -65,6 +90,45 @@
 				3B2C1ED22882820D00827653 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B2C1ED92882840D00827653 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C1EDA2882841D00827653 /* Coffee.swift */,
+				3B2C1EDC2882842900827653 /* Order.swift */,
+				3B2C1EE82882951B00827653 /* CreateOrderResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B2C1EDE288286EB00827653 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C1EDF2882874C00827653 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3B2C1EE228828A5000827653 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C1EE328828AA500827653 /* OrderListViewModel.swift */,
+				3B2C1EEA2882969E00827653 /* AddCoffeeOrderViewModel.swift */,
+				3B2C1EEC2882981400827653 /* CoffeeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3B2C1EE528828D7800827653 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C1ECD2882820A00827653 /* ContentView.swift */,
+				3B2C1EE628828E1200827653 /* OrderListView.swift */,
+				3B2C1EEE28829BEE00827653 /* AddCoffeeOrderView.swift */,
+				3B2C1EF02882A3E400827653 /* OrderTotalView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +202,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2C1ECE2882820A00827653 /* ContentView.swift in Sources */,
+				3B2C1EEF28829BEE00827653 /* AddCoffeeOrderView.swift in Sources */,
 				3B2C1ECC2882820A00827653 /* CoffeOrdersL_MVVM_SwiftUIApp.swift in Sources */,
+				3B2C1EED2882981400827653 /* CoffeeViewModel.swift in Sources */,
+				3B2C1EDD2882842900827653 /* Order.swift in Sources */,
+				3B2C1EE92882951B00827653 /* CreateOrderResponse.swift in Sources */,
+				3B2C1EE728828E1200827653 /* OrderListView.swift in Sources */,
+				3B2C1EE428828AA500827653 /* OrderListViewModel.swift in Sources */,
+				3B2C1EE02882874C00827653 /* Webservice.swift in Sources */,
+				3B2C1EEB2882969E00827653 /* AddCoffeeOrderViewModel.swift in Sources */,
+				3B2C1EF12882A3E400827653 /* OrderTotalView.swift in Sources */,
+				3B2C1EDB2882841D00827653 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,7 @@
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeOrdersL-MVVM-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +374,7 @@
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeOrdersL-MVVM-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
